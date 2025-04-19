@@ -1,10 +1,12 @@
 import { Link, Outlet } from "react-router-dom"
-
+import factura from "../assets/invoices.png";
 export const LinksDentroApp = () => {
+    let estilo = "links-dentro-app"
     return <>
     <nav className="estilo-nav-dentro">
-        <li>
-            <Link to="facturas">Facturas</Link>
+        <li className={estilo}>
+        <Link  to="facturas"><div style={{color:"white"}}>Facturas</div><img src={factura} /></Link>
+            
         </li>
         <li>
             <Link to="clientes">Clientes</Link>
