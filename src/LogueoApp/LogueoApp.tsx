@@ -1,5 +1,5 @@
 import { useDatosContext } from "../elementosHooks/useDatosContext";
-import RutasDentroApp from "../Rutas/RutasDentroApp";
+import RutasDentroApp from "../Rutas/RutasPrivadasApp";
 
 export default function LogueoApp({ children }: { children: React.ReactNode }){
     const {isUserLogueado} = useDatosContext();

@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { Contacto, Home, LinksPaxinas, Logueo, NoPage } from "./PaxinasForaApp"
+import { Contacto, Home, LinksPaxinas, Logueo, NoPage } from "./PaxinasPublicasApp"
 
 export default function RutasForaApp(){
     return <>

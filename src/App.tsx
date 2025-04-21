@@ -1,9 +1,8 @@
 import {BrowserRouter} from 'react-router-dom';
-import './App.css'
-
 import { Proveedorcontexto } from './elementosHooks/proveedorContext';
 import LogueoApp from './LogueoApp/LogueoApp';
-import RutasForaApp from './Rutas/RutasForaApp';
+import RutasForaApp from './Rutas/RutasPublicasApp';
+import './App.css'
 
 function App() {
 

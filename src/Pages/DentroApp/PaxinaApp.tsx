@@ -1,4 +1,4 @@
-import { useDatosContext } from "../elementosHooks/useDatosContext"
+import { useDatosContext } from "../../elementosHooks/useDatosContext"
 
 const PaxinaApp = ()=>{
     const {logout}=useDatosContext();
