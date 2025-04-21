@@ -11,7 +11,7 @@ export default function RutasDentroApp(){
         <Routes>
             <Route path="/paxinaapp0" element={<LinksDentroApp />}>
                 <Route index element={<PaxinaApp />} />
-               <Route path="facturas" element={<Facturas />} />
+                <Route path="facturas" element={<Facturas />} />
                 <Route path="clientes" element={<Clientes />} />
                 <Route path="productos" element={<Productos />} /> 
                 <Route path="*" element={<NoPage />} />

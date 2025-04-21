@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import {UserData,LocalContextType} from '../Tipos/tipos'
 
 export const LocalContext = createContext<LocalContextType | null>(null);
+
 function Proveedorcontexto({ children }: { children: React.ReactNode }){
     const [isUserLogueado,setIsUserLogueado] = useState(false)
     let navigate = useNavigate();
